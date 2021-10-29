@@ -1,0 +1,36 @@
+@import url("header.css");
+@import url("footer.css");
+
+/* Main Styles */
+main {
+    gap: 1em;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover,
+main a:focus {
+    text-decoration: underline;
+    color: rgb(0, 0, 0) !important;
+}
+
+.main__shopcart-card {
+    flex-direction: row;
+}
+
+.main__shopcart-prodImage {
+    max-width: 50%;
+}
+
+.card-body > * {
+    margin-bottom: 0.5em;
+}
+
+#quantity-input {
+    max-width: 75%;
+}

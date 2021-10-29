@@ -1,0 +1,29 @@
+@import url("base.css");
+@import url("header.css");
+@import url("footer.css");
+
+.main__form-nome--valid,
+.main__form-categoria--valid {
+    display: none;
+}
+
+.main__form-nome--invalid,
+.main__form-categoria--invalid {
+    display: inline;
+}
+
+.main__form {
+    min-width: 50%;
+    align-items: center;
+}
+
+.main__form-fieldset {
+    min-width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .main__form {
+        width: 50% !important;
+        justify-content: space-between;
+    }
+}

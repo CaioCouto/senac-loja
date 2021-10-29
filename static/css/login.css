@@ -1,0 +1,13 @@
+@import url("base.css");
+@import url("header.css");
+@import url("footer.css");
+
+.main__form {
+    width: 100% !important;
+}
+
+@media (min-width: 1200px) {
+    .main__form {
+        width: 50% !important;
+    }
+}

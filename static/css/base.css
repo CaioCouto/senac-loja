@@ -1,0 +1,19 @@
+@import url('normalize.css');
+
+/* Variables */
+:root {
+  --bg-header-footer:rgb(21, 22, 29);
+  --font-color:rgb(255, 255, 255);
+}
+
+/* Basic Styles */  
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+main {
+  min-height: 20vh;
+}

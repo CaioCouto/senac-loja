@@ -1,0 +1,39 @@
+@import url("base.css");
+
+/* Header Styles */
+header {
+  background: var(--bg-header-footer);
+  color: var(--font-color);
+  min-height: 8vh;
+}
+
+.navbar {
+  min-height: 100%;
+}
+
+.header__brand,
+.header__search,
+.header__collapse {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.header__brand {
+  flex: 50% 0 1;
+}
+
+.header__collapse {
+  width: 25%;
+}
+
+.header__search-small {
+  background: #151C1E;
+}
+
+/* Media Queries */
+@media (min-width: 1200px) {
+  .header__search,
+  .header__list {
+    width: 50%;
+  }
+}

@@ -1,0 +1,28 @@
+@import url("header.css");
+@import url("footer.css");
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+/* Main Styles */
+main {
+  gap: 1em;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+#main__product-card {
+  border: 1px solid rgba(0,0,0, 0.7);
+}
+
+.main__product-card p, h5 {
+  color:rgb(0,0,0);
+}
+

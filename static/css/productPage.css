@@ -1,0 +1,21 @@
+@import url("header.css");
+@import url("footer.css");
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+/* Main Styles */
+main {
+  gap: 1em;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+

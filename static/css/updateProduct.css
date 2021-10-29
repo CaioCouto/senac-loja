@@ -1,0 +1,53 @@
+@import url("header.css");
+@import url("footer.css");
+
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+/* Main Styles */
+main {
+  gap: 1em;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.main__card {
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .main__card-image {
+        width: 30%;
+    }
+
+    .main__card-description {
+        width: 50%;
+    }
+
+    .main__card-buttons {
+        width: 20%;
+    }
+    
+    .main__card-buttons a {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px){
+    .main__card {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1400px){
+    .main__card {
+        width: 50%;
+    }
+}

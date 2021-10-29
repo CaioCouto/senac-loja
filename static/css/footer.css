@@ -1,0 +1,17 @@
+@import url("base.css");
+
+/* Footer Styles */
+footer {
+  background: var(--bg-header-footer);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__link,
+.footer__link:visited {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer_list-item:hover {
+  padding-bottom: 1em;
+  text-decoration: underline;
+}
