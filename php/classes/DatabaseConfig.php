@@ -4,8 +4,6 @@ class DatabaseConfig {
     protected $dbh;
 
     protected function __construct() {
-        // $dbPath = dirname(dirname(__DIR__)) . '\\loja.sqlite';
-        // $this->dbh = new PDO("sqlite:{$dbPath}");
         $this->dbh = new PDO('mysql:host=localhost;dbname=loja', 'root', '');
         $this->createUsersTable();
         $this->createProductsTable();
