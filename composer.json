@@ -6,5 +6,7 @@
             "Senac\\Loja\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "ext-pdo":"*"
+    }
 }
