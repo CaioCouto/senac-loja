@@ -2,3 +2,5 @@
 log.txt
 teste.*
 static/img
+/vendor/
+/static/img/
