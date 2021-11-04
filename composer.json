@@ -3,7 +3,7 @@
     "description": "Aplica\u0000\u0000o desenvolvida no curso de Desenvolvimento WEB do SENAC/BA",
     "autoload": {
         "psr-4": {
-            "Senac\\Loja\\": "src/"
+            "Senac\\Loja\\": "php"
         }
     },
     "require": {
